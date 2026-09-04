@@ -753,7 +753,8 @@ async def sub_plain(uid: str, request: Request):
         "subscription-userinfo": user_info_header,
         "Profile-Update-Interval": "1",
         "profile-update-interval": "1",
-        "Profile-Title": f"base64:{base64.b64encode(ib['name'].encode()).decode()}",
+        # تغییر زیر اعمال شده است:
+        "Profile-Title": "base64:2YHZhNi02YUgU3Rhbk5HINeo2YXYs9in2YUg2YHZg9in2YUg2YHZhiDYsdmF2KfbjCDZiNiv2YbYqg==",
         "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
         "Pragma": "no-cache",
         "Expires": "0",
